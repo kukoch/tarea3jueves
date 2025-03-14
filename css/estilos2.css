@@ -1,0 +1,64 @@
+/* CSS Document */
+.padre{
+    background-color: yellow;
+    padding: 5px;
+    font-size: 30px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "caja1 caja1 caja1 caja1 caja1 caja1"
+                         "caja2 caja2 caja3 caja3 caja4 caja4"
+                         "caja2 caja2 caja3 caja3 caja4 caja4"
+                         "caja5 caja5 caja5 caja5 caja6 caja6"
+                         "caja7 caja8 caja9 caja10 caja6 caja6"
+                         "caja7 caja8 caja9 caja10 caja6 caja6";
+}
+.padre .caja1{
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja1;
+}
+.padre .caja2{
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja2;
+}
+.padre .caja3{
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja3;
+}
+.padre .caja4{
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja4;
+}
+.padre .caja5{
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja5;
+}
+.padre .caja6{
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja6;
+}
+.padre .caja7{
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja7;
+}
+.padre .caja8{
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja8;
+}
+.padre .caja9{
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja9;
+}
+.padre .caja10{
+    background-color: aqua;
+    margin: 5px;
+    grid-area: caja10;
+}
